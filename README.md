@@ -17,7 +17,7 @@ or include the distributable (`dist/aria-isolate.js`) in your page using a scrip
 <script src="aria-isolate.js"></script>
 
 <script>
-  var myModal = new AriaIsolate(modalEl);
+  var isolator = new AriaIsolate(modalEl);
 </script>
 ```
 
@@ -26,11 +26,11 @@ or include the distributable (`dist/aria-isolate.js`) in your page using a scrip
 Assuming `AriaIsolate` is available
 
 ```js
-var myModal = new AriaIsolate(modalEl);
+var isolator = new AriaIsolate(modalEl);
 
 // Isolates `modalEl` using 'aria-hidden' on others
-myModal.activate(myModal);
+isolator.activate();
 
 // Removes 'aria-hidden' from cached list of others
-myModal.deactivate(myModal);
+isolator.deactivate();
 ```
