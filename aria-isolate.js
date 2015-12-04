@@ -9,7 +9,7 @@ var classes = require('component/classes');
  * Expose `AriaIsolate`.
  */
 
-module.exports = AriaIsolate;
+exports = module.exports = AriaIsolate;
 
 /**
  * Create an instance of `AriaIsolate`.
