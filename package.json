@@ -1,0 +1,28 @@
+{
+  "name": "aria-isolate",
+  "version": "1.0.0",
+  "description": "Uses aria-hidden to hide all elements expect a given modal element",
+  "main": "aria-isolate.js",
+  "scripts": {
+    "test": "echo 'no tests'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/isner/aria-isolate.git"
+  },
+  "keywords": [
+    "aria",
+    "hidden",
+    "modal"
+  ],
+  "author": "Matt Isner <isnerms@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isner/aria-isolate/issues"
+  },
+  "homepage": "https://github.com/isner/aria-isolate#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-duojs": "^0.4.2"
+  }
+}

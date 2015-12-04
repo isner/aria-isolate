@@ -1,0 +1,6 @@
+{
+  "laxbreak": true,
+  "loopfunc": true,
+  "node": true,
+  "strict": false
+}
