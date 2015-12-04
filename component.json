@@ -1,0 +1,13 @@
+{
+  "name": "aria-isolate",
+  "repository": "isner/aria-isolate",
+  "remotes": ["https://raw.githubusercontent.com"],
+  "description": "Uses aria-hidden to hide all elements expect a given modal element",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "aria-isolate.js",
+  "scripts": ["aria-isolate.js"],
+  "dependencies": {
+    "component/classes": "*"
+  }
+}
